@@ -806,6 +806,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@iconify-json/tabler@npm:^1.2.25":
+  version: 1.2.25
+  resolution: "@iconify-json/tabler@npm:1.2.25"
+  dependencies:
+    "@iconify/types": "npm:*"
+  checksum: 10c0/fe539917492426a6500bf9de60d711b3f147578d1d6e9023dd2f981bebf4fd68afa5b7ff9070fc30abc6d2dcb03146a1870f410a086106b8c1a9dac4c04d0994
+  languageName: node
+  linkType: hard
+
 "@iconify/collections@npm:^1.0.628":
   version: 1.0.629
   resolution: "@iconify/collections@npm:1.0.629"
@@ -4232,6 +4241,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "cyrilatin@workspace:."
   dependencies:
+    "@iconify-json/tabler": "npm:^1.2.25"
     "@nuxt/fonts": "npm:0.12.1"
     "@nuxt/hints": "npm:1.0.0-alpha.3"
     "@nuxt/icon": "npm:2.1.1"

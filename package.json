@@ -19,6 +19,7 @@
     "vue-router": "^4.6.3"
   },
   "devDependencies": {
+    "@iconify-json/tabler": "^1.2.25",
     "@unocss/nuxt": "^66.5.10",
     "unocss": "^66.5.10"
   }
