@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="flex w-screen h-screen bg-gray-50 justify-center py-256px gap-8px">
+  <div class="layout flex w-screen h-screen bg-gray-50 justify-center py-256px gap-8px">
     <div>
       <Navbar />
     </div>
@@ -14,5 +14,8 @@
 </template>
 
 <style scoped>
-
+.layout {
+  background-image: radial-gradient(#dddddd 1px, transparent 1px);
+  background-size: 32px 32px;
+}
 </style>
