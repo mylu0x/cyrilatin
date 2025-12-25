@@ -1,5 +1,2 @@
-/* Reset CSS */
 @import '@unocss/reset/tailwind.css';
-
-/* Your CSS here */
-body {}
+@import './fonts.css';
