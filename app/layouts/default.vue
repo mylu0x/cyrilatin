@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div>
+  <div class="flex w-screen h-screen bg-gray-1 justify-center py-256px">
     <slot />
   </div>
 </template>
