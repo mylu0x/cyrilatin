@@ -4228,6 +4228,22 @@ __metadata:
   languageName: node
   linkType: hard
 
+"cyrilatin@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "cyrilatin@workspace:."
+  dependencies:
+    "@nuxt/fonts": "npm:0.12.1"
+    "@nuxt/hints": "npm:1.0.0-alpha.3"
+    "@nuxt/icon": "npm:2.1.1"
+    "@nuxt/image": "npm:2.0.0"
+    "@unocss/nuxt": "npm:^66.5.10"
+    nuxt: "npm:^4.2.2"
+    unocss: "npm:^66.5.10"
+    vue: "npm:^3.5.25"
+    vue-router: "npm:^4.6.3"
+  languageName: unknown
+  linkType: soft
+
 "db0@npm:^0.3.4":
   version: 0.3.4
   resolution: "db0@npm:0.3.4"
@@ -6566,22 +6582,6 @@ __metadata:
   checksum: 10c0/5fee7ff309727763689cfad844d979aedd2204a817fbaaf0e1603794a7c20db28548d7b024692f953557df6ce4a0ee4ae46cd8ebd9b36cfb300b9226b567c479
   languageName: node
   linkType: hard
-
-"nuxt-template@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "nuxt-template@workspace:."
-  dependencies:
-    "@nuxt/fonts": "npm:0.12.1"
-    "@nuxt/hints": "npm:1.0.0-alpha.3"
-    "@nuxt/icon": "npm:2.1.1"
-    "@nuxt/image": "npm:2.0.0"
-    "@unocss/nuxt": "npm:^66.5.10"
-    nuxt: "npm:^4.2.2"
-    unocss: "npm:^66.5.10"
-    vue: "npm:^3.5.25"
-    vue-router: "npm:^4.6.3"
-  languageName: unknown
-  linkType: soft
 
 "nuxt@npm:^4.2.2":
   version: 4.2.2
