@@ -13,7 +13,7 @@
     <NavbarSection>
       <p class="text-12px font-500 text-gray-8 flex items-center justify-center gap-4px"><Icon name="circle-flags:ru" /> Russian</p>
       <div class="text-14px w-full mt-2px">
-        <NuxtLink to="/ru/iso9" class="flex items-center justify-center rounded-8px font-500 py-3px w-full hover:bg-gray-2 transition-all-50">ISO-9</NuxtLink>
+        <NuxtLink to="/ru/iso9" class="flex items-center justify-center rounded-8px font-500 py-3px w-full hover:bg-gray-2 transition-all-50">ISO 9</NuxtLink>
       </div>
     </NavbarSection>
   </div>
