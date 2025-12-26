@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <p>Under Development</p>
+
 </template>
 
 <style scoped>
