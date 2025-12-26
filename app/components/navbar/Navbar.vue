@@ -12,7 +12,7 @@
     </NavbarSection>
     <NavbarSection>
       <div class="text-14px w-full">
-        <NavbarTranslitLink text="Russian" icon="circle-flags:ru" to="/transliterate/ru" />
+        <NavbarTransliterateLink text="Russian" icon="circle-flags:ru" to="/transliterate/ru" />
       </div>
     </NavbarSection>
   </div>
