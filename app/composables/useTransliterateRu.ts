@@ -1,5 +1,3 @@
-type transliterationType = 'iso9';
-
 const rules: { iso9: { [key: string]: string } } = {
   iso9: {
     'А': 'A',
@@ -51,9 +49,11 @@ function transliterate(rule: { [key: string]: string }, text: string): string {
     .join('');
 }
 
-export default function (type: transliterationType, text: string) {
+export default function (type: string, text: string) {
   switch (type) {
     case 'iso9':
       return transliterate(rules['iso9'], text);
+    default:
+      return `Unknown Rule: ${type}`;
   }
 }
