@@ -2,7 +2,7 @@
 import { OnClickOutside } from '@vueuse/components';
 
 type Rule = {
-  id: 'iso9';
+  id: string;
   name: string;
   desc: string;
 }
@@ -18,6 +18,11 @@ const rules = ref<Rule[]>([
     id: 'iso9',
     name: 'ISO 9:1995',
     desc: 'An international standard for transliterating Cyrillic letters into Latin letters'
+  },
+  {
+    id: 'gost7.79-2000b',
+    name: 'GOST 7.79B',
+    desc: 'A simplified Cyrillic-Latin transliteration standard'
   }
 ]);
 
@@ -70,8 +75,8 @@ const isSelectorOpen = ref<boolean>(false);
             </button>
             <div v-show="isSelectorOpen" class="absolute left-1/2 -translate-x-1/2">
               <div class="flex flex-col gap-4px bg-white z-999 b-(solid 1px gray-2) shadow-sm w-fit p-6px rounded-12px items-center mt-4px shadow-md">
-                <div v-for="rule in rules" @click="currentRule = rule; isSelectorOpen = false;" class="cursor-pointer transition-all-50 flex gap-32px hover:bg-gray-1 px-12px py-6px rounded-10px w-300px items-center justify-between">
-                  <div class="leading-tight">
+                <div v-for="rule in rules" @click="currentRule = rule; isSelectorOpen = false;" class="cursor-pointer transition-all-50 flex hover:bg-gray-1 px-12px py-6px rounded-10px w-300px items-center justify-between">
+                  <div class="leading-tight w-100px flex flex-col shrink-0">
                     <p class="whitespace-nowrap text-16px font-600 text-gray-8">{{ rule.name }}</p>
                     <p class="text-12px text-gray-7">{{ rule.id }}</p>
                   </div>
