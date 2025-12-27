@@ -3404,6 +3404,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vueuse/components@npm:^14.1.0":
+  version: 14.1.0
+  resolution: "@vueuse/components@npm:14.1.0"
+  dependencies:
+    "@vueuse/core": "npm:14.1.0"
+    "@vueuse/shared": "npm:14.1.0"
+  peerDependencies:
+    vue: ^3.5.0
+  checksum: 10c0/2e198d4601711a505f1ef3dd4fcb3566087fb909bee910ee296098724915484364e2009365bf866e128a3242cecd91dd0d7ae0bb7222a48c93b3e78aaea4a6bb
+  languageName: node
+  linkType: hard
+
 "@vueuse/core@npm:14.1.0":
   version: 14.1.0
   resolution: "@vueuse/core@npm:14.1.0"
@@ -4308,6 +4320,7 @@ __metadata:
     "@nuxt/icon": "npm:2.1.1"
     "@nuxt/image": "npm:2.0.0"
     "@unocss/nuxt": "npm:^66.5.10"
+    "@vueuse/components": "npm:^14.1.0"
     "@vueuse/nuxt": "npm:14.1.0"
     nuxt: "npm:^4.2.2"
     unocss: "npm:^66.5.10"
