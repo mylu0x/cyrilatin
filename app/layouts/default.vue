@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="layout flex w-screen h-screen bg-gray-50 justify-center py-256px gap-8px">
+  <div class="layout flex w-screen h-screen bg-gray-50 justify-center pt-200px gap-8px">
     <div>
       <Navbar />
     </div>
