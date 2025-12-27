@@ -42,7 +42,7 @@ const clearResultText = () => {
   originalText.value = '';
 }
 
-const isSelectorOpen = ref<boolean>(true);
+const isSelectorOpen = ref<boolean>(false);
 </script>
 
 <template>
