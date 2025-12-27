@@ -1,7 +1,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/hints', '@nuxt/icon', '@nuxt/image', '@nuxt/fonts', '@unocss/nuxt'],
+  modules: [
+    '@nuxt/hints',
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@nuxt/fonts',
+    '@unocss/nuxt',
+    '@vueuse/nuxt'
+  ],
   app: {
     head: {
       title: 'Cyrilatin',
