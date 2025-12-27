@@ -10,7 +10,7 @@ type Rule = {
 const currentRule = ref<Rule>({
   id: 'iso9',
   name: 'ISO 9',
-  desc: 'WHATWHAT',
+  desc: 'An international standard for transliterating Cyrillic letters into Latin letters'
 });
 
 const rules = ref<Rule[]>([
