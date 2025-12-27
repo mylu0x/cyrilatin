@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import useTransliterateRu from "~/composables/useTransliterateRu";
 import { OnClickOutside } from '@vueuse/components';
 
 type Rule = {
@@ -22,8 +21,6 @@ const rules = ref<Rule[]>([
   }
 ]);
 
-const isSelectorOpen = ref<boolean>(true);
-
 const originalText = ref<string>('');
 const resultText = computed(() => {
   return useTransliterateRu(currentRule.value.id, originalText.value);
@@ -44,6 +41,8 @@ const copyResultText = () => {
 const clearResultText = () => {
   originalText.value = '';
 }
+
+const isSelectorOpen = ref<boolean>(true);
 </script>
 
 <template>
