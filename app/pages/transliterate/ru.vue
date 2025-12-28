@@ -58,11 +58,11 @@ const isSelectorOpen = ref<boolean>(false);
     </div>
     <div class="flex items-center justify-between px-8px">
       <div class="shrink-0 p-4px bg-gray-1 rounded-t-12px b-(solid 1px gray-2px) !b-b-none flex gap-4px mt-6px">
-        <button @click="copyOriginalText" class="flex items-center bg-white px-8px py-2px gap-3px rounded-8px b-(solid 1px gray-2) shadow-sm text-gray-9 hover:bg-gray-1 transition-all-100">
+        <button @click="copyResultText" class="flex items-center bg-white px-8px py-2px gap-3px rounded-8px b-(solid 1px gray-2) shadow-sm text-gray-9 hover:bg-gray-1 transition-all-100">
           <Icon name="tabler:copy" class="size-14px" />
           <span class="text-14px">Copy</span>
         </button>
-        <button @click="clearOriginalText" class="flex items-center bg-white px-8px py-2px gap-3px rounded-8px b-(solid 1px red-2) shadow-sm text-gray-9 hover:bg-gray-1 transition-all-100">
+        <button @click="clearResultText" class="flex items-center bg-white px-8px py-2px gap-3px rounded-8px b-(solid 1px red-2) shadow-sm text-gray-9 hover:bg-gray-1 transition-all-100">
           <Icon name="tabler:trash" class="size-14px" />
           <span class="text-14px">Clear</span>
         </button>
@@ -88,11 +88,11 @@ const isSelectorOpen = ref<boolean>(false);
         </div>
       </div>
       <div class="shrink-0 p-4px bg-gray-1 rounded-b-12px b-(solid 1px gray-2px) !b-t-none flex gap-4px mb-6px">
-        <button @click="copyResultText" class="flex items-center bg-white px-8px py-2px gap-3px rounded-8px b-(solid 1px gray-2) shadow-sm text-gray-9 hover:bg-gray-1 transition-all-100">
+        <button @click="copyOriginalText" class="flex items-center bg-white px-8px py-2px gap-3px rounded-8px b-(solid 1px gray-2) shadow-sm text-gray-9 hover:bg-gray-1 transition-all-100">
           <Icon name="tabler:copy" class="size-14px" />
           <span class="text-14px">Copy</span>
         </button>
-        <button @click="clearResultText" class="flex items-center bg-white px-8px py-2px gap-3px rounded-8px b-(solid 1px red-2) shadow-sm text-gray-9 hover:bg-gray-1 transition-all-100">
+        <button @click="clearOriginalText" class="flex items-center bg-white px-8px py-2px gap-3px rounded-8px b-(solid 1px red-2) shadow-sm text-gray-9 hover:bg-gray-1 transition-all-100">
           <Icon name="tabler:trash" class="size-14px" />
           <span class="text-14px">Clear</span>
         </button>
