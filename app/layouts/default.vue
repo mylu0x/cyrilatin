@@ -13,6 +13,13 @@
       </div>
       <Footer />
     </div>
+
+    <div class="absolute left-16px top-16px flex gap-4px">
+      <a href="https://github.com/mylu0x/cyrilatin" target="_blank" rel="noopener noreferrer" class="flex items-center gap-4px bg-white px-12px py-3px text-14px text-gray-8 rounded-10px b-(solid 1px gray-2) shadow-sm hover:bg-gray-1 transition-all-100">
+        <Icon name="tabler:brand-github-filled" class="text-gray-7" />
+        GitHub Repository
+      </a>
+    </div>
   </div>
 </template>
 
