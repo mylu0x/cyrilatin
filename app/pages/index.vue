@@ -22,8 +22,8 @@ const updates: Update[] = [
       <p class="text-32px font-600 text-gray-8 leading-tight">Welcome!</p>
       <p class="text-gray-7 text-14px"><strong>Cyrilatin</strong> is a tool that converts characters into Latin letters.</p>
     </div>
-    <div class="flex flex-col w-full px-24px b-t-(solid 1px gray-2) py-16px gap-6px">
-      <div v-for="update in updates" class="flex items-center justify-between w-full gap-4px">
+    <div class="flex flex-col w-full px-24px b-t-(solid 1px gray-2) py-16px gap-16px">
+      <div v-for="update in updates" class="flex flex-col justify-between w-full gap-4px leading-tight">
         <p class="font-600 text-gray-8 text-14px">{{ update.date }}</p>
         <p class="text-14px text-gray-7">{{ update.content }}</p>
       </div>
