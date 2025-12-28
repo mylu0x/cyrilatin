@@ -23,6 +23,11 @@ const rules = ref<Rule[]>([
     id: 'gost7.79-2000b',
     name: 'GOST 7.79B',
     desc: 'A simplified Cyrillic-Latin transliteration standard'
+  },
+  {
+    id: 'mylu-style',
+    name: 'Mylu Style',
+    desc: 'Mylu\'s original Cyrillic-Latin transliteration rules'
   }
 ]);
 
