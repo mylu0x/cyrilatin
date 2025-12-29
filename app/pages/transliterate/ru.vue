@@ -27,9 +27,7 @@ const rules = ref<TransliterationRule[]>([
 ]);
 
 const originalText = ref<string>('');
-const resultText = computed(() => {
-  return useTransliterateRu(currentRule.value.id, originalText.value);
-});
+const resultText = computed(() => useTransliterateRu(currentRule.value.id, originalText.value));
 
 function copy(text?: string) {
   if (!text) return;
