@@ -30,7 +30,7 @@ function clear() {
 
 <template>
   <div>
-    <OriginalTextarea v-model="originalText" label="Cyrillic Text" id="cyrillic-textarea" />
+    <OriginalTextarea v-model="originalText" label="Greek Text" id="greek-textarea" />
     <div class="flex items-center justify-between px-8px">
       <ActionButtonGroup direction="down" @copy="copy(resultText)" @clear="clear" />
       <div class="flex w-full px-4px">
