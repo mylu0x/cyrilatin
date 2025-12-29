@@ -11,8 +11,9 @@
       </NuxtLink>
     </NavbarSection>
     <NavbarSection>
-      <div class="text-14px w-full">
+      <div class="text-14px w-full flex flex-col gap-4px">
         <NavbarTransliterateLink text="Russian" icon="circle-flags:ru" to="/transliterate/ru" />
+        <NavbarTransliterateLink text="Greek" icon="circle-flags:el" to="/transliterate/el" />
       </div>
     </NavbarSection>
   </div>
