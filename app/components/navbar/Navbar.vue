@@ -12,8 +12,9 @@
     </NavbarSection>
     <NavbarSection>
       <div class="text-14px w-full flex flex-col gap-4px">
-        <NavbarTransliterateLink text="Russian" icon="circle-flags:ru" to="/transliterate/ru" />
-        <NavbarTransliterateLink text="Greek" icon="circle-flags:el" to="/transliterate/el" />
+        <NavbarTransliterateLink text="Russian" icon="circle-flags:lang-ru" to="/transliterate/ru" />
+        <NavbarTransliterateLink text="Ukrainian" icon="circle-flags:lang-uk" to="/transliterate/uk" />
+        <NavbarTransliterateLink text="Greek" icon="circle-flags:lang-el" to="/transliterate/el" />
       </div>
     </NavbarSection>
   </div>
