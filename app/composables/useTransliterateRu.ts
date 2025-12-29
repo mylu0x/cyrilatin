@@ -1,5 +1,5 @@
 const rules: Record<string, Record<string, string>> = {
-  'iso9': {
+  iso9_1995: {
     'А': 'A', 'а': 'a',
     'Б': 'B', 'б': 'b',
     'В': 'V', 'в': 'v',
@@ -34,7 +34,7 @@ const rules: Record<string, Record<string, string>> = {
     'Ю': 'Û', 'ю': 'û',
     'Я': 'Â', 'я': 'â'
   },
-  'gost7.79-2000b': {
+  gost7_79_2000b: {
     'А': 'A', 'а': 'a',
     'Б': 'B', 'б': 'b',
     'В': 'V', 'в': 'v',
@@ -69,7 +69,7 @@ const rules: Record<string, Record<string, string>> = {
     'Ю': 'Yu', 'ю': 'yu',
     'Я': 'Ya', 'я': 'ya'
   },
-  'mylu-style': {
+  mylu_style: {
     'А': 'A', 'а': 'a',
     'Б': 'B', 'б': 'b',
     'В': 'V', 'в': 'v',
