@@ -112,7 +112,8 @@ function transliterate(rule: { [key: string]: string }, text: string): string {
     .map((char) => {
       return rule[char] || char;
     })
-    .join('');
+    .join('')
+    .normalize('NFC');
 }
 
 export default function (type: string, text: string) {
