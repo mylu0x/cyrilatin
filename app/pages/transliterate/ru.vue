@@ -1,6 +1,5 @@
 <script setup lang="ts">
-import type { TransliterationRule } from "#shared/transliteration";
-import ResultTextarea from "~/components/transliterate/ResultTextarea.vue";
+import type { TransliterationRule } from "#shared/types/transliteration";
 
 const currentRule = ref<TransliterationRule>({
   id: 'iso9_1995',

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import type { TransliterationRule } from "#shared/transliteration";
+import type { TransliterationRule } from "#shared/types/transliteration";
 import { OnClickOutside } from "@vueuse/components";
 
 const props = defineProps<{
