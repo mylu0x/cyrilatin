@@ -1,19 +1,14 @@
 <script setup lang="ts">
 import { OnClickOutside } from '@vueuse/components';
+import type { TransliterationRule } from "#shared/transliteration";
 
-type Rule = {
-  id: string;
-  name: string;
-  desc: string;
-}
-
-const currentRule = ref<Rule>({
+const currentRule = ref<TransliterationRule>({
   id: 'iso9_1995',
   name: 'ISO 9:1995',
   desc: 'International one-to-one Cyrillic–Latin transliteration standard'
 });
 
-const rules = ref<Rule[]>([
+const rules = ref<TransliterationRule[]>([
   {
     id: 'iso9_1995',
     name: 'ISO 9:1995',
