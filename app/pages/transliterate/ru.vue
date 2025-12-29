@@ -31,19 +31,12 @@ const resultText = computed(() => {
   return useTransliterateRu(currentRule.value.id, originalText.value);
 });
 
-const copyOriginalText = () => {
-  navigator.clipboard.writeText(originalText.value);
+function copy(text?: string) {
+  if (!text) return;
+  navigator.clipboard.writeText(text);
 }
 
-const clearOriginalText = () => {
-  originalText.value = '';
-}
-
-const copyResultText = () => {
-  navigator.clipboard.writeText(resultText.value);
-}
-
-const clearResultText = () => {
+function clear() {
   originalText.value = '';
 }
 </script>
@@ -52,11 +45,11 @@ const clearResultText = () => {
   <div>
     <OriginalTextarea v-model="originalText" label="Cyrillic Text" id="cyrillic-textarea" />
     <div class="flex items-center justify-between px-8px">
-      <ActionButtonGroup direction="down" @copy="copyResultText" @clear="clearResultText" />
+      <ActionButtonGroup direction="down" @copy="copy(resultText)" @clear="clear" />
       <div class="flex w-full px-4px">
         <RuleSelector v-model="currentRule" :rules="rules" />
       </div>
-      <ActionButtonGroup direction="up" @copy="copyOriginalText" @clear="clearOriginalText" />
+      <ActionButtonGroup direction="up" @copy="copy(originalText)" @clear="clear" />
     </div>
     <ResultTextarea :result="resultText" />
   </div>
