@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import type { TransliterationRule } from "#shared/types/transliteration";
+import type { TransliterationRuleMetadata } from "#shared/types/transliteration";
 
-const currentRule = ref<TransliterationRule>({
+const currentRule = ref<TransliterationRuleMetadata>({
   id: 'iso9_1995',
   name: 'ISO 9:1995',
   desc: 'International one-to-one Cyrillic–Latin transliteration standard'
 });
 
-const rules = ref<TransliterationRule[]>([
+const rules = ref<TransliterationRuleMetadata[]>([
   {
     id: 'iso9_1995',
     name: 'ISO 9:1995',

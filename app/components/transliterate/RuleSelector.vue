@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import type { TransliterationRule } from "#shared/types/transliteration";
+import type { TransliterationRuleMetadata } from "#shared/types/transliteration";
 import { OnClickOutside } from "@vueuse/components";
 
 const props = defineProps<{
-  rules: TransliterationRule[]
+  rules: TransliterationRuleMetadata[]
 }>();
-const model = defineModel<TransliterationRule>({
+const model = defineModel<TransliterationRuleMetadata>({
   required: true
 });
 const isSelectorOpen = ref<boolean>(false);
