@@ -92,7 +92,7 @@ const rules: Record<string, Record<string, string>> = {
     'Т': 'T', 'т': 't',
     'У': 'U', 'у': 'u',
     'Ф': 'F', 'ф': 'f',
-    'Х': 'X', 'х': 'x',
+    'Х': 'Kh', 'х': 'kh',
     'Ц': 'C', 'ц': 'c',
     'Ч': 'Ch', 'ч': 'ch',
     'Ш': 'Sh', 'ш': 'sh',
