@@ -17,17 +17,17 @@ const rules = ref<Rule[]>([
   {
     id: 'iso9',
     name: 'ISO 9:1995',
-    desc: 'An international standard for transliterating Cyrillic letters into Latin letters'
+    desc: 'International one-to-one Cyrillic–Latin transliteration standard'
   },
   {
     id: 'gost7.79-2000b',
     name: 'GOST 7.79B',
-    desc: 'A simplified Cyrillic-Latin transliteration standard'
+    desc: 'Simplified Cyrillic–Latin transliteration system'
   },
   {
     id: 'mylu-style',
     name: 'Mylu Style',
-    desc: 'Mylu\'s original Cyrillic-Latin transliteration rules'
+    desc: 'Mylu\'s Cyrillic–Latin transliteration rules'
   }
 ]);
 
