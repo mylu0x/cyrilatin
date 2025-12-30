@@ -11,7 +11,7 @@ const isLinkActive = computed(() => {
 </script>
 
 <template>
-  <NuxtLink :to :class="{ 'bg-gray-2' : isLinkActive }" class="flex items-center justify-center gap-4px rounded-8px font-500 py-3px w-full hover:bg-gray-2 text-gray-8 transition-all-50">
+  <NuxtLink :to :class="{ 'bg-gray-2' : isLinkActive }" class="flex items-center px-8px gap-4px rounded-8px font-500 py-3px w-full hover:bg-gray-2 text-gray-8 transition-all-50">
     <Icon :name="icon" />
     {{ text }}
   </NuxtLink>
