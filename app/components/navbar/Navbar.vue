@@ -16,6 +16,7 @@
         <NavbarTransliterateLink text="Ukrainian" icon="circle-flags:lang-uk" to="/transliterate/uk" />
         <NavbarTransliterateLink text="Greek" icon="circle-flags:lang-el" to="/transliterate/el" />
         <NavbarTransliterateLink text="Georgian" icon="circle-flags:lang-ka" to="/transliterate/ka" />
+        <NavbarTransliterateLink text="Armenian" icon="circle-flags:lang-hy" to="/transliterate/hy" />
       </div>
     </NavbarSection>
   </div>
