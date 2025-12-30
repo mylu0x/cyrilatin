@@ -14,7 +14,7 @@ const isSelectorOpen = ref<boolean>(false);
 <template>
   <div class="relative w-full">
     <OnClickOutside @trigger="isSelectorOpen = false">
-      <button @click="isSelectorOpen = !isSelectorOpen" class="flex items-center px-6px py-3px bg-white text-gray-7 font-500 b-(solid 1px gray-2) w-full shadow-sm rounded-8px hover:bg-gray-1 transition-all-100 outline-none focus:outline-none focus:b-(solid 1px gray-3)">
+      <button @click="isSelectorOpen = !isSelectorOpen" class="flex items-center justify-center px-8px py-3px bg-white text-gray-7 font-500 b-(solid 1px gray-2) w-full shadow-sm rounded-8px hover:bg-gray-1 transition-all-100 outline-none focus:outline-none focus:b-(solid 1px gray-3)">
         {{ model.name }}
       </button>
       <div v-show="isSelectorOpen" class="absolute left-1/2 -translate-x-1/2">
