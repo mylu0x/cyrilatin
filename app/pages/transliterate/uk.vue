@@ -31,7 +31,7 @@ function clear() {
 <template>
   <div>
     <OriginalTextarea v-model="originalText" label="Cyrillic Text" id="cyrillic-textarea" placeholder="Привіт, як справи?" />
-    <div class="flex items-center justify-between px-8px">
+    <div class="flex items-center justify-between px-8px max-md:block">
       <ActionButtonGroup direction="down" @copy="copy(resultText)" @clear="clear" />
       <div class="flex w-full px-4px">
         <RuleSelector v-model="currentRule" :rules="rules" />
