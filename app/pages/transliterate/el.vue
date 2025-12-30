@@ -4,14 +4,14 @@ import type { TransliterationRuleMetadata } from "#shared/types/transliteration"
 const currentRule = ref<TransliterationRuleMetadata>({
   id: 'iso843_1997',
   name: 'ISO 843:1997',
-  desc: 'International one-to-one Greek–Latin transliteration standard'
+  desc: 'International Greek–Latin transliteration standard'
 });
 
 const rules = ref<TransliterationRuleMetadata[]>([
   {
     id: 'iso843_1997',
     name: 'ISO 843:1997',
-    desc: 'International one-to-one Greek–Latin transliteration standard'
+    desc: 'International Greek–Latin transliteration standard'
   }
 ]);
 
