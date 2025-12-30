@@ -6,6 +6,10 @@ type Update = {
 
 const updates: Update[] = [
   {
+    date: 'December 30, 2025',
+    content: 'Added Georgian transliteration'
+  },
+  {
     date: 'December 29, 2025',
     content: 'Added Ukrainian transliteration'
   },
