@@ -12,6 +12,11 @@ const rules = ref<TransliterationRuleMetadata[]>([
     id: 'iso9_1995',
     name: 'ISO 9:1995',
     desc: 'International one-to-one Cyrillic–Latin transliteration standard'
+  },
+  {
+    id: 'mylu_style',
+    name: 'Mylu Style',
+    desc: 'Mylu\'s Cyrillic–Latin transliteration rules'
   }
 ]);
 
