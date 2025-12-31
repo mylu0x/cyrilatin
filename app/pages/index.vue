@@ -6,30 +6,34 @@ type Update = {
 
 const updates: Update[] = [
   {
-    date: 'December 30, 2025',
-    content: 'Added Armenian transliteration'
+    date: 'December 31, 2025',
+    content: 'Added the Mylu Style transliteration rule for Ukrainian. Best wishes for the coming New Year!'
   },
   {
     date: 'December 30, 2025',
-    content: 'Added Georgian transliteration'
+    content: 'Added Armenian transliteration support'
+  },
+  {
+    date: 'December 30, 2025',
+    content: 'Added Georgian transliteration support'
   },
   {
     date: 'December 29, 2025',
-    content: 'Added Ukrainian transliteration'
+    content: 'Added Ukrainian transliteration support'
   },
   {
     date: 'December 29, 2025',
-    content: 'Added Greek transliteration'
+    content: 'Added Greek transliteration support'
   },
   {
     date: 'December 28, 2025',
-    content: 'Added the "Mylu Style" rule for Russian transliteration'
+    content: 'Added the Mylu Style transliteration rule for Russian'
   },
   {
     date: 'December 28, 2025',
-    content: 'Added updates section to the home page',
+    content: 'Added an updates section to the home page'
   }
-]
+];
 </script>
 
 <template>
